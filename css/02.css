@@ -1,0 +1,25 @@
+/* Primero comenzamos con la medida de un móvil sin media queries*/
+
+.oferta {
+  background-color: #00446e;
+  padding: 2rem;
+  text-align: center;
+}
+
+.precio {
+  font-size: 4rem;
+  margin: 0;
+}
+
+@media (width >= 600px) {
+  .oferta {
+    max-width: 40rem;
+    margin: 0 auto;
+  }
+}
+
+@media (width >= 800px) {
+  .oferta {
+    max-width: 60rem;
+  }
+}
